@@ -1,6 +1,6 @@
 {
   "name": "mini-router",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -10,8 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "qs": "^6.9.4"
+  },
   "devDependencies": {
+    "rollup": "^2.35.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^6.1.0"
